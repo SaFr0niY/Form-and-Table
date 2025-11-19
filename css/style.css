@@ -59,6 +59,7 @@ input {
 input {
     padding-left: 10px;
     color: black;
+    font-size: 20px;
 }
 .white-block1 {
     width: 1200px;
@@ -77,13 +78,16 @@ textarea {
     height: 250px;
     border: 0px;
     border-radius: 30px ;
+    padding: 15px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
 }
 
 textarea::placeholder {
     color: black;
     font-size: 20px;
-    padding: 10px;
 
+    font-family: "Inter", sans-serif;
 }
 
 input::placeholder {
